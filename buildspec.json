@@ -1,0 +1,42 @@
+{
+    "dependencies": {
+        "obs-studio": {
+            "version": "32.2.2",
+            "baseUrl": "https://github.com/obsproject/obs-studio/archive/refs/tags",
+            "label": "OBS sources",
+            "hashes": {
+                "macos": "35d3cd0979d65664fada7119fdb612eca7c34b61a1623a330caec74bf72626c4",
+                "windows-x64": "35d3cd0979d65664fada7119fdb612eca7c34b61a1623a330caec74bf72626c4"
+            }
+        },
+        "prebuilt": {
+            "version": "2026-06-25",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built obs-deps",
+            "hashes": {
+                "macos": "PLACEHOLDER_MACOS_HASH",
+                "windows-x64": "aea064cc550563d0095603385c22cc52b33de71e57ea3f6ff1ae1d54a0bb9d8a"
+            }
+        },
+        "qt6": {
+            "version": "2026-06-25",
+            "baseUrl": "https://github.com/obsproject/obs-deps/releases/download",
+            "label": "Pre-Built Qt6",
+            "hashes": {
+                "macos": "PLACEHOLDER_MACOS_HASH",
+                "windows-x64": "b30ee3653d6381ca491daa5b30b3cff6deb1b3e7f149f4b087c2fb03a1432023"
+            }
+        }
+    },
+    "platformConfig": {
+        "macos": {
+            "bundleId": "com.obsrelay.buffer"
+        }
+    },
+    "name": "obs-relay-buffer",
+    "displayName": "OBS Relay Buffer",
+    "version": "0.1.0",
+    "author": "Pero",
+    "website": "https://github.com/goodperotw/obs-relay-buffer",
+    "email": "0711kps@gmail.com"
+}
